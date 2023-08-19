@@ -1,0 +1,12 @@
+# folders
+__pycache__/
+myenv/
+chromedriver_win32/
+build/
+dist/
+
+# files
+config.py
+app.spec
+silent.vbs
+wif-manager.bat
