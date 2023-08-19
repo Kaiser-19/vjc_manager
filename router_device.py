@@ -21,7 +21,7 @@ ADMIN_MAC = "04-ED-33-CE-C5-43"
 class Router:
 
     def __init__(self):
-        self._chrome_options = Options()
+        self._chrome_options = webdriver.ChromeOptions()
         self._chrome_options.add_argument("--headless")
         # self._chrome_options.add_argument('--no-sandbox')
         self._chrome_options.add_experimental_option("detach", True)
