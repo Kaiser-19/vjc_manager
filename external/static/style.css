@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+.form-container h1{
+    font-size: 20px;
+    display: none;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 27px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7E857E;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-field::placeholder{
+    text-transform: none;
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+}
+.activate-button {
+    background-color: #7E857E;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activate-button:hover {
+    background-color: #949b94;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-link {
+    color: #92a195;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+.menu-link {
+    margin-top: 10px;
+}
+
+.menu-link a {
+    color: #92a195;
+    text-decoration: none;
+}
+
+.menu-link a:hover {
+    text-decoration: underline;
+}
